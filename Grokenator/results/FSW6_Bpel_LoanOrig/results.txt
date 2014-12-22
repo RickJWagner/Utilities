@@ -1,0 +1,570 @@
+loan_approval.bpel.import.location has value riskAssessmentPT.wsdl also at risk_assessment.bpel.import.location
+risk_assessment.bpel.import.location has value riskAssessmentPT.wsdl also at loan_approval.bpel.import.location
+loanServicePT.wsdl.message.name has value requestMessage
+loan_approval.bpel.import.location has value loanServicePT.wsdl
+loan_approval.bpel.assign.validate has value no also at loan_approval.bpel.assign.validate also at loan_approval.bpel.assign.validate also at risk_assessment.bpel.assign.validate also at risk_assessment.bpel.assign.validate
+loan_approval.bpel.assign.validate has value no also at loan_approval.bpel.assign.validate also at loan_approval.bpel.assign.validate also at risk_assessment.bpel.assign.validate also at risk_assessment.bpel.assign.validate
+loan_approval.bpel.assign.validate has value no also at loan_approval.bpel.assign.validate also at loan_approval.bpel.assign.validate also at risk_assessment.bpel.assign.validate also at risk_assessment.bpel.assign.validate
+risk_assessment.bpel.assign.validate has value no also at loan_approval.bpel.assign.validate also at loan_approval.bpel.assign.validate also at loan_approval.bpel.assign.validate also at risk_assessment.bpel.assign.validate
+risk_assessment.bpel.assign.validate has value no also at loan_approval.bpel.assign.validate also at loan_approval.bpel.assign.validate also at loan_approval.bpel.assign.validate also at risk_assessment.bpel.assign.validate
+loan_approval.bpel.partnerLink.partnerLinkType has value ans:riskAssessmentLT
+loanServicePT.wsdl.element.name has value accept
+loan_approval.bpel.partnerLink.myRole has value loanService also at loanServicePT.wsdl.plnk:role.name also at loanServicePT.wsdl.service.name also at switchyard.xml.sca:service.name also at switchyard.xml.sca:service.promote also at switchyard.xml.sca:component.name also at switchyard.xml.sca:service.name
+loanServicePT.wsdl.plnk:role.name has value loanService also at loan_approval.bpel.partnerLink.myRole also at loanServicePT.wsdl.service.name also at switchyard.xml.sca:service.name also at switchyard.xml.sca:service.promote also at switchyard.xml.sca:component.name also at switchyard.xml.sca:service.name
+loanServicePT.wsdl.service.name has value loanService also at loan_approval.bpel.partnerLink.myRole also at loanServicePT.wsdl.plnk:role.name also at switchyard.xml.sca:service.name also at switchyard.xml.sca:service.promote also at switchyard.xml.sca:component.name also at switchyard.xml.sca:service.name
+switchyard.xml.sca:service.name has value loanService also at loan_approval.bpel.partnerLink.myRole also at loanServicePT.wsdl.plnk:role.name also at loanServicePT.wsdl.service.name also at switchyard.xml.sca:service.promote also at switchyard.xml.sca:component.name also at switchyard.xml.sca:service.name
+switchyard.xml.sca:service.promote has value loanService also at loan_approval.bpel.partnerLink.myRole also at loanServicePT.wsdl.plnk:role.name also at loanServicePT.wsdl.service.name also at switchyard.xml.sca:service.name also at switchyard.xml.sca:component.name also at switchyard.xml.sca:service.name
+switchyard.xml.sca:component.name has value loanService also at loan_approval.bpel.partnerLink.myRole also at loanServicePT.wsdl.plnk:role.name also at loanServicePT.wsdl.service.name also at switchyard.xml.sca:service.name also at switchyard.xml.sca:service.promote also at switchyard.xml.sca:service.name
+switchyard.xml.sca:service.name has value loanService also at loan_approval.bpel.partnerLink.myRole also at loanServicePT.wsdl.plnk:role.name also at loanServicePT.wsdl.service.name also at switchyard.xml.sca:service.name also at switchyard.xml.sca:service.promote also at switchyard.xml.sca:component.name
+loanServicePT.wsdl.binding.name has value loanService_Binding
+loan_approval.bpel.from.header has value conversationId also at loan_approval.bpel.to.header also at loan_approval.bpel.from.header also at loan_approval.bpel.to.header also at risk_assessment.bpel.from.header also at risk_assessment.bpel.to.header
+loan_approval.bpel.to.header has value conversationId also at loan_approval.bpel.from.header also at loan_approval.bpel.from.header also at loan_approval.bpel.to.header also at risk_assessment.bpel.from.header also at risk_assessment.bpel.to.header
+loan_approval.bpel.from.header has value conversationId also at loan_approval.bpel.from.header also at loan_approval.bpel.to.header also at loan_approval.bpel.to.header also at risk_assessment.bpel.from.header also at risk_assessment.bpel.to.header
+loan_approval.bpel.to.header has value conversationId also at loan_approval.bpel.from.header also at loan_approval.bpel.to.header also at loan_approval.bpel.from.header also at risk_assessment.bpel.from.header also at risk_assessment.bpel.to.header
+risk_assessment.bpel.from.header has value conversationId also at loan_approval.bpel.from.header also at loan_approval.bpel.to.header also at loan_approval.bpel.from.header also at loan_approval.bpel.to.header also at risk_assessment.bpel.to.header
+risk_assessment.bpel.to.header has value conversationId also at loan_approval.bpel.from.header also at loan_approval.bpel.to.header also at loan_approval.bpel.from.header also at loan_approval.bpel.to.header also at risk_assessment.bpel.from.header
+riskAssessmentPT.wsdl.plnk:partnerLinkType.name has value riskAssessmentLT
+deploy.xml.provide.partnerLink has value customer also at loan_approval.bpel.partnerLink.name also at loan_approval.bpel.reply.partnerLink also at loan_approval.bpel.receive.partnerLink also at loan_approval.bpel.reply.partnerLink
+loan_approval.bpel.partnerLink.name has value customer also at deploy.xml.provide.partnerLink also at loan_approval.bpel.reply.partnerLink also at loan_approval.bpel.receive.partnerLink also at loan_approval.bpel.reply.partnerLink
+loan_approval.bpel.reply.partnerLink has value customer also at deploy.xml.provide.partnerLink also at loan_approval.bpel.partnerLink.name also at loan_approval.bpel.receive.partnerLink also at loan_approval.bpel.reply.partnerLink
+loan_approval.bpel.receive.partnerLink has value customer also at deploy.xml.provide.partnerLink also at loan_approval.bpel.partnerLink.name also at loan_approval.bpel.reply.partnerLink also at loan_approval.bpel.reply.partnerLink
+loan_approval.bpel.reply.partnerLink has value customer also at deploy.xml.provide.partnerLink also at loan_approval.bpel.partnerLink.name also at loan_approval.bpel.reply.partnerLink also at loan_approval.bpel.receive.partnerLink
+switchyard.xml.switchyard.xmlns:soap has value urn:switchyard-component-soap:config:1.0
+loan_approval.bpel.catch.faultName has value ans:loanProcessFault
+loan_approval.bpel.variable.name has value faultResponse also at loan_approval.bpel.to.variable also at loan_approval.bpel.reply.variable also at risk_assessment.bpel.variable.name also at risk_assessment.bpel.to.variable also at risk_assessment.bpel.reply.variable
+loan_approval.bpel.to.variable has value faultResponse also at loan_approval.bpel.variable.name also at loan_approval.bpel.reply.variable also at risk_assessment.bpel.variable.name also at risk_assessment.bpel.to.variable also at risk_assessment.bpel.reply.variable
+loan_approval.bpel.reply.variable has value faultResponse also at loan_approval.bpel.variable.name also at loan_approval.bpel.to.variable also at risk_assessment.bpel.variable.name also at risk_assessment.bpel.to.variable also at risk_assessment.bpel.reply.variable
+risk_assessment.bpel.variable.name has value faultResponse also at loan_approval.bpel.variable.name also at loan_approval.bpel.to.variable also at loan_approval.bpel.reply.variable also at risk_assessment.bpel.to.variable also at risk_assessment.bpel.reply.variable
+risk_assessment.bpel.to.variable has value faultResponse also at loan_approval.bpel.variable.name also at loan_approval.bpel.to.variable also at loan_approval.bpel.reply.variable also at risk_assessment.bpel.variable.name also at risk_assessment.bpel.reply.variable
+risk_assessment.bpel.reply.variable has value faultResponse also at loan_approval.bpel.variable.name also at loan_approval.bpel.to.variable also at loan_approval.bpel.reply.variable also at risk_assessment.bpel.variable.name also at risk_assessment.bpel.to.variable
+loan_approval.bpel.reply.faultName has value lns:unableToHandleRequest
+deploy.xml.process.name has value ra:riskAssessmentProcess also at switchyard.xml.bpel:implementation.bpel.process
+switchyard.xml.bpel:implementation.bpel.process has value ra:riskAssessmentProcess also at deploy.xml.process.name
+deploy.xml.invoke.usePeer2Peer has value false
+switchyard.xml.switchyard.xmlns:bean has value urn:switchyard-component-bean:config:1.0
+risk_assessment.bpel.partnerLink.partnerLinkType has value lns:riskAssessmentLT
+loan_approval.bpel.variable.name has value requestResponse also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.reply.variable also at loanServicePT.wsdl.element.name
+loan_approval.bpel.to.variable has value requestResponse also at loan_approval.bpel.variable.name also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.reply.variable also at loanServicePT.wsdl.element.name
+loan_approval.bpel.to.variable has value requestResponse also at loan_approval.bpel.variable.name also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.reply.variable also at loanServicePT.wsdl.element.name
+loan_approval.bpel.to.variable has value requestResponse also at loan_approval.bpel.variable.name also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.reply.variable also at loanServicePT.wsdl.element.name
+loan_approval.bpel.reply.variable has value requestResponse also at loan_approval.bpel.variable.name also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loanServicePT.wsdl.element.name
+loanServicePT.wsdl.element.name has value requestResponse also at loan_approval.bpel.variable.name also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.reply.variable
+loan_approval.bpel.variable.messageType has value lns:requestResponseMessage
+deploy.xml.deploy.xmlns:ra has value http://example.com/loan-approval/riskAssessment/ also at loan_approval.bpel.process.xmlns:ans also at loan_approval.bpel.import.namespace also at loan_approval.bpel.check.xmlns also at risk_assessment.bpel.process.targetNamespace also at risk_assessment.bpel.process.xmlns:lns also at risk_assessment.bpel.import.namespace also at riskAssessmentPT.wsdl.wsdl:definitions.targetNamespace also at riskAssessmentPT.wsdl.wsdl:definitions.xmlns:tns also at riskAssessmentPT.wsdl.xsd:schema.targetNamespace also at switchyard.xml.switchyard.xmlns:ra
+loan_approval.bpel.process.xmlns:ans has value http://example.com/loan-approval/riskAssessment/ also at deploy.xml.deploy.xmlns:ra also at loan_approval.bpel.import.namespace also at loan_approval.bpel.check.xmlns also at risk_assessment.bpel.process.targetNamespace also at risk_assessment.bpel.process.xmlns:lns also at risk_assessment.bpel.import.namespace also at riskAssessmentPT.wsdl.wsdl:definitions.targetNamespace also at riskAssessmentPT.wsdl.wsdl:definitions.xmlns:tns also at riskAssessmentPT.wsdl.xsd:schema.targetNamespace also at switchyard.xml.switchyard.xmlns:ra
+loan_approval.bpel.import.namespace has value http://example.com/loan-approval/riskAssessment/ also at deploy.xml.deploy.xmlns:ra also at loan_approval.bpel.process.xmlns:ans also at loan_approval.bpel.check.xmlns also at risk_assessment.bpel.process.targetNamespace also at risk_assessment.bpel.process.xmlns:lns also at risk_assessment.bpel.import.namespace also at riskAssessmentPT.wsdl.wsdl:definitions.targetNamespace also at riskAssessmentPT.wsdl.wsdl:definitions.xmlns:tns also at riskAssessmentPT.wsdl.xsd:schema.targetNamespace also at switchyard.xml.switchyard.xmlns:ra
+loan_approval.bpel.check.xmlns has value http://example.com/loan-approval/riskAssessment/ also at deploy.xml.deploy.xmlns:ra also at loan_approval.bpel.process.xmlns:ans also at loan_approval.bpel.import.namespace also at risk_assessment.bpel.process.targetNamespace also at risk_assessment.bpel.process.xmlns:lns also at risk_assessment.bpel.import.namespace also at riskAssessmentPT.wsdl.wsdl:definitions.targetNamespace also at riskAssessmentPT.wsdl.wsdl:definitions.xmlns:tns also at riskAssessmentPT.wsdl.xsd:schema.targetNamespace also at switchyard.xml.switchyard.xmlns:ra
+risk_assessment.bpel.process.targetNamespace has value http://example.com/loan-approval/riskAssessment/ also at deploy.xml.deploy.xmlns:ra also at loan_approval.bpel.process.xmlns:ans also at loan_approval.bpel.import.namespace also at loan_approval.bpel.check.xmlns also at risk_assessment.bpel.process.xmlns:lns also at risk_assessment.bpel.import.namespace also at riskAssessmentPT.wsdl.wsdl:definitions.targetNamespace also at riskAssessmentPT.wsdl.wsdl:definitions.xmlns:tns also at riskAssessmentPT.wsdl.xsd:schema.targetNamespace also at switchyard.xml.switchyard.xmlns:ra
+risk_assessment.bpel.process.xmlns:lns has value http://example.com/loan-approval/riskAssessment/ also at deploy.xml.deploy.xmlns:ra also at loan_approval.bpel.process.xmlns:ans also at loan_approval.bpel.import.namespace also at loan_approval.bpel.check.xmlns also at risk_assessment.bpel.process.targetNamespace also at risk_assessment.bpel.import.namespace also at riskAssessmentPT.wsdl.wsdl:definitions.targetNamespace also at riskAssessmentPT.wsdl.wsdl:definitions.xmlns:tns also at riskAssessmentPT.wsdl.xsd:schema.targetNamespace also at switchyard.xml.switchyard.xmlns:ra
+risk_assessment.bpel.import.namespace has value http://example.com/loan-approval/riskAssessment/ also at deploy.xml.deploy.xmlns:ra also at loan_approval.bpel.process.xmlns:ans also at loan_approval.bpel.import.namespace also at loan_approval.bpel.check.xmlns also at risk_assessment.bpel.process.targetNamespace also at risk_assessment.bpel.process.xmlns:lns also at riskAssessmentPT.wsdl.wsdl:definitions.targetNamespace also at riskAssessmentPT.wsdl.wsdl:definitions.xmlns:tns also at riskAssessmentPT.wsdl.xsd:schema.targetNamespace also at switchyard.xml.switchyard.xmlns:ra
+riskAssessmentPT.wsdl.wsdl:definitions.targetNamespace has value http://example.com/loan-approval/riskAssessment/ also at deploy.xml.deploy.xmlns:ra also at loan_approval.bpel.process.xmlns:ans also at loan_approval.bpel.import.namespace also at loan_approval.bpel.check.xmlns also at risk_assessment.bpel.process.targetNamespace also at risk_assessment.bpel.process.xmlns:lns also at risk_assessment.bpel.import.namespace also at riskAssessmentPT.wsdl.wsdl:definitions.xmlns:tns also at riskAssessmentPT.wsdl.xsd:schema.targetNamespace also at switchyard.xml.switchyard.xmlns:ra
+riskAssessmentPT.wsdl.wsdl:definitions.xmlns:tns has value http://example.com/loan-approval/riskAssessment/ also at deploy.xml.deploy.xmlns:ra also at loan_approval.bpel.process.xmlns:ans also at loan_approval.bpel.import.namespace also at loan_approval.bpel.check.xmlns also at risk_assessment.bpel.process.targetNamespace also at risk_assessment.bpel.process.xmlns:lns also at risk_assessment.bpel.import.namespace also at riskAssessmentPT.wsdl.wsdl:definitions.targetNamespace also at riskAssessmentPT.wsdl.xsd:schema.targetNamespace also at switchyard.xml.switchyard.xmlns:ra
+riskAssessmentPT.wsdl.xsd:schema.targetNamespace has value http://example.com/loan-approval/riskAssessment/ also at deploy.xml.deploy.xmlns:ra also at loan_approval.bpel.process.xmlns:ans also at loan_approval.bpel.import.namespace also at loan_approval.bpel.check.xmlns also at risk_assessment.bpel.process.targetNamespace also at risk_assessment.bpel.process.xmlns:lns also at risk_assessment.bpel.import.namespace also at riskAssessmentPT.wsdl.wsdl:definitions.targetNamespace also at riskAssessmentPT.wsdl.wsdl:definitions.xmlns:tns also at switchyard.xml.switchyard.xmlns:ra
+switchyard.xml.switchyard.xmlns:ra has value http://example.com/loan-approval/riskAssessment/ also at deploy.xml.deploy.xmlns:ra also at loan_approval.bpel.process.xmlns:ans also at loan_approval.bpel.import.namespace also at loan_approval.bpel.check.xmlns also at risk_assessment.bpel.process.targetNamespace also at risk_assessment.bpel.process.xmlns:lns also at risk_assessment.bpel.import.namespace also at riskAssessmentPT.wsdl.wsdl:definitions.targetNamespace also at riskAssessmentPT.wsdl.wsdl:definitions.xmlns:tns also at riskAssessmentPT.wsdl.xsd:schema.targetNamespace
+deploy.xml.deploy.xmlns:ls has value http://example.com/loan-approval/loanService/ also at loan_approval.bpel.process.targetNamespace also at loan_approval.bpel.process.xmlns:lns also at loan_approval.bpel.import.namespace also at loan_approval.bpel.tns:RequestResponse.xmlns:tns also at loanServicePT.wsdl.definitions.targetNamespace also at loanServicePT.wsdl.definitions.xmlns:tns also at loanServicePT.wsdl.xsd:schema.targetNamespace also at risk_assessment.bpel.tns:CheckResponse.xmlns:tns also at switchyard.xml.switchyard.xmlns:ls
+loan_approval.bpel.process.targetNamespace has value http://example.com/loan-approval/loanService/ also at deploy.xml.deploy.xmlns:ls also at loan_approval.bpel.process.xmlns:lns also at loan_approval.bpel.import.namespace also at loan_approval.bpel.tns:RequestResponse.xmlns:tns also at loanServicePT.wsdl.definitions.targetNamespace also at loanServicePT.wsdl.definitions.xmlns:tns also at loanServicePT.wsdl.xsd:schema.targetNamespace also at risk_assessment.bpel.tns:CheckResponse.xmlns:tns also at switchyard.xml.switchyard.xmlns:ls
+loan_approval.bpel.process.xmlns:lns has value http://example.com/loan-approval/loanService/ also at deploy.xml.deploy.xmlns:ls also at loan_approval.bpel.process.targetNamespace also at loan_approval.bpel.import.namespace also at loan_approval.bpel.tns:RequestResponse.xmlns:tns also at loanServicePT.wsdl.definitions.targetNamespace also at loanServicePT.wsdl.definitions.xmlns:tns also at loanServicePT.wsdl.xsd:schema.targetNamespace also at risk_assessment.bpel.tns:CheckResponse.xmlns:tns also at switchyard.xml.switchyard.xmlns:ls
+loan_approval.bpel.import.namespace has value http://example.com/loan-approval/loanService/ also at deploy.xml.deploy.xmlns:ls also at loan_approval.bpel.process.targetNamespace also at loan_approval.bpel.process.xmlns:lns also at loan_approval.bpel.tns:RequestResponse.xmlns:tns also at loanServicePT.wsdl.definitions.targetNamespace also at loanServicePT.wsdl.definitions.xmlns:tns also at loanServicePT.wsdl.xsd:schema.targetNamespace also at risk_assessment.bpel.tns:CheckResponse.xmlns:tns also at switchyard.xml.switchyard.xmlns:ls
+loan_approval.bpel.tns:RequestResponse.xmlns:tns has value http://example.com/loan-approval/loanService/ also at deploy.xml.deploy.xmlns:ls also at loan_approval.bpel.process.targetNamespace also at loan_approval.bpel.process.xmlns:lns also at loan_approval.bpel.import.namespace also at loanServicePT.wsdl.definitions.targetNamespace also at loanServicePT.wsdl.definitions.xmlns:tns also at loanServicePT.wsdl.xsd:schema.targetNamespace also at risk_assessment.bpel.tns:CheckResponse.xmlns:tns also at switchyard.xml.switchyard.xmlns:ls
+loanServicePT.wsdl.definitions.targetNamespace has value http://example.com/loan-approval/loanService/ also at deploy.xml.deploy.xmlns:ls also at loan_approval.bpel.process.targetNamespace also at loan_approval.bpel.process.xmlns:lns also at loan_approval.bpel.import.namespace also at loan_approval.bpel.tns:RequestResponse.xmlns:tns also at loanServicePT.wsdl.definitions.xmlns:tns also at loanServicePT.wsdl.xsd:schema.targetNamespace also at risk_assessment.bpel.tns:CheckResponse.xmlns:tns also at switchyard.xml.switchyard.xmlns:ls
+loanServicePT.wsdl.definitions.xmlns:tns has value http://example.com/loan-approval/loanService/ also at deploy.xml.deploy.xmlns:ls also at loan_approval.bpel.process.targetNamespace also at loan_approval.bpel.process.xmlns:lns also at loan_approval.bpel.import.namespace also at loan_approval.bpel.tns:RequestResponse.xmlns:tns also at loanServicePT.wsdl.definitions.targetNamespace also at loanServicePT.wsdl.xsd:schema.targetNamespace also at risk_assessment.bpel.tns:CheckResponse.xmlns:tns also at switchyard.xml.switchyard.xmlns:ls
+loanServicePT.wsdl.xsd:schema.targetNamespace has value http://example.com/loan-approval/loanService/ also at deploy.xml.deploy.xmlns:ls also at loan_approval.bpel.process.targetNamespace also at loan_approval.bpel.process.xmlns:lns also at loan_approval.bpel.import.namespace also at loan_approval.bpel.tns:RequestResponse.xmlns:tns also at loanServicePT.wsdl.definitions.targetNamespace also at loanServicePT.wsdl.definitions.xmlns:tns also at risk_assessment.bpel.tns:CheckResponse.xmlns:tns also at switchyard.xml.switchyard.xmlns:ls
+risk_assessment.bpel.tns:CheckResponse.xmlns:tns has value http://example.com/loan-approval/loanService/ also at deploy.xml.deploy.xmlns:ls also at loan_approval.bpel.process.targetNamespace also at loan_approval.bpel.process.xmlns:lns also at loan_approval.bpel.import.namespace also at loan_approval.bpel.tns:RequestResponse.xmlns:tns also at loanServicePT.wsdl.definitions.targetNamespace also at loanServicePT.wsdl.definitions.xmlns:tns also at loanServicePT.wsdl.xsd:schema.targetNamespace also at switchyard.xml.switchyard.xmlns:ls
+switchyard.xml.switchyard.xmlns:ls has value http://example.com/loan-approval/loanService/ also at deploy.xml.deploy.xmlns:ls also at loan_approval.bpel.process.targetNamespace also at loan_approval.bpel.process.xmlns:lns also at loan_approval.bpel.import.namespace also at loan_approval.bpel.tns:RequestResponse.xmlns:tns also at loanServicePT.wsdl.definitions.targetNamespace also at loanServicePT.wsdl.definitions.xmlns:tns also at loanServicePT.wsdl.xsd:schema.targetNamespace also at risk_assessment.bpel.tns:CheckResponse.xmlns:tns
+loanServicePT.wsdl.port.binding has value tns:loanService_Binding
+loanServicePT.wsdl.xsd:schema.attributeFormDefault has value unqualified also at riskAssessmentPT.wsdl.xsd:schema.attributeFormDefault
+riskAssessmentPT.wsdl.xsd:schema.attributeFormDefault has value unqualified also at loanServicePT.wsdl.xsd:schema.attributeFormDefault
+deploy.xml.invoke.partnerLink has value assessor also at deploy.xml.provide.partnerLink also at loan_approval.bpel.partnerLink.name also at loan_approval.bpel.partnerLink.partnerRole also at loan_approval.bpel.invoke.partnerLink also at risk_assessment.bpel.partnerLink.name also at risk_assessment.bpel.partnerLink.myRole also at risk_assessment.bpel.receive.partnerLink also at risk_assessment.bpel.reply.partnerLink also at risk_assessment.bpel.reply.partnerLink also at riskAssessmentPT.wsdl.plnk:role.name
+deploy.xml.provide.partnerLink has value assessor also at deploy.xml.invoke.partnerLink also at loan_approval.bpel.partnerLink.name also at loan_approval.bpel.partnerLink.partnerRole also at loan_approval.bpel.invoke.partnerLink also at risk_assessment.bpel.partnerLink.name also at risk_assessment.bpel.partnerLink.myRole also at risk_assessment.bpel.receive.partnerLink also at risk_assessment.bpel.reply.partnerLink also at risk_assessment.bpel.reply.partnerLink also at riskAssessmentPT.wsdl.plnk:role.name
+loan_approval.bpel.partnerLink.name has value assessor also at deploy.xml.invoke.partnerLink also at deploy.xml.provide.partnerLink also at loan_approval.bpel.partnerLink.partnerRole also at loan_approval.bpel.invoke.partnerLink also at risk_assessment.bpel.partnerLink.name also at risk_assessment.bpel.partnerLink.myRole also at risk_assessment.bpel.receive.partnerLink also at risk_assessment.bpel.reply.partnerLink also at risk_assessment.bpel.reply.partnerLink also at riskAssessmentPT.wsdl.plnk:role.name
+loan_approval.bpel.partnerLink.partnerRole has value assessor also at deploy.xml.invoke.partnerLink also at deploy.xml.provide.partnerLink also at loan_approval.bpel.partnerLink.name also at loan_approval.bpel.invoke.partnerLink also at risk_assessment.bpel.partnerLink.name also at risk_assessment.bpel.partnerLink.myRole also at risk_assessment.bpel.receive.partnerLink also at risk_assessment.bpel.reply.partnerLink also at risk_assessment.bpel.reply.partnerLink also at riskAssessmentPT.wsdl.plnk:role.name
+loan_approval.bpel.invoke.partnerLink has value assessor also at deploy.xml.invoke.partnerLink also at deploy.xml.provide.partnerLink also at loan_approval.bpel.partnerLink.name also at loan_approval.bpel.partnerLink.partnerRole also at risk_assessment.bpel.partnerLink.name also at risk_assessment.bpel.partnerLink.myRole also at risk_assessment.bpel.receive.partnerLink also at risk_assessment.bpel.reply.partnerLink also at risk_assessment.bpel.reply.partnerLink also at riskAssessmentPT.wsdl.plnk:role.name
+risk_assessment.bpel.partnerLink.name has value assessor also at deploy.xml.invoke.partnerLink also at deploy.xml.provide.partnerLink also at loan_approval.bpel.partnerLink.name also at loan_approval.bpel.partnerLink.partnerRole also at loan_approval.bpel.invoke.partnerLink also at risk_assessment.bpel.partnerLink.myRole also at risk_assessment.bpel.receive.partnerLink also at risk_assessment.bpel.reply.partnerLink also at risk_assessment.bpel.reply.partnerLink also at riskAssessmentPT.wsdl.plnk:role.name
+risk_assessment.bpel.partnerLink.myRole has value assessor also at deploy.xml.invoke.partnerLink also at deploy.xml.provide.partnerLink also at loan_approval.bpel.partnerLink.name also at loan_approval.bpel.partnerLink.partnerRole also at loan_approval.bpel.invoke.partnerLink also at risk_assessment.bpel.partnerLink.name also at risk_assessment.bpel.receive.partnerLink also at risk_assessment.bpel.reply.partnerLink also at risk_assessment.bpel.reply.partnerLink also at riskAssessmentPT.wsdl.plnk:role.name
+risk_assessment.bpel.receive.partnerLink has value assessor also at deploy.xml.invoke.partnerLink also at deploy.xml.provide.partnerLink also at loan_approval.bpel.partnerLink.name also at loan_approval.bpel.partnerLink.partnerRole also at loan_approval.bpel.invoke.partnerLink also at risk_assessment.bpel.partnerLink.name also at risk_assessment.bpel.partnerLink.myRole also at risk_assessment.bpel.reply.partnerLink also at risk_assessment.bpel.reply.partnerLink also at riskAssessmentPT.wsdl.plnk:role.name
+risk_assessment.bpel.reply.partnerLink has value assessor also at deploy.xml.invoke.partnerLink also at deploy.xml.provide.partnerLink also at loan_approval.bpel.partnerLink.name also at loan_approval.bpel.partnerLink.partnerRole also at loan_approval.bpel.invoke.partnerLink also at risk_assessment.bpel.partnerLink.name also at risk_assessment.bpel.partnerLink.myRole also at risk_assessment.bpel.receive.partnerLink also at risk_assessment.bpel.reply.partnerLink also at riskAssessmentPT.wsdl.plnk:role.name
+risk_assessment.bpel.reply.partnerLink has value assessor also at deploy.xml.invoke.partnerLink also at deploy.xml.provide.partnerLink also at loan_approval.bpel.partnerLink.name also at loan_approval.bpel.partnerLink.partnerRole also at loan_approval.bpel.invoke.partnerLink also at risk_assessment.bpel.partnerLink.name also at risk_assessment.bpel.partnerLink.myRole also at risk_assessment.bpel.receive.partnerLink also at risk_assessment.bpel.reply.partnerLink also at riskAssessmentPT.wsdl.plnk:role.name
+riskAssessmentPT.wsdl.plnk:role.name has value assessor also at deploy.xml.invoke.partnerLink also at deploy.xml.provide.partnerLink also at loan_approval.bpel.partnerLink.name also at loan_approval.bpel.partnerLink.partnerRole also at loan_approval.bpel.invoke.partnerLink also at risk_assessment.bpel.partnerLink.name also at risk_assessment.bpel.partnerLink.myRole also at risk_assessment.bpel.receive.partnerLink also at risk_assessment.bpel.reply.partnerLink also at risk_assessment.bpel.reply.partnerLink
+loanServicePT.wsdl.output.message has value tns:requestResponseMessage
+loanServicePT.wsdl.soap:operation.soapAction has value http://example.com/loan-approval/loanService/request
+loan_approval.bpel.variable.messageType has value lns:requestMessage
+switchyard.xml.switchyard.name has value loanapproval
+loan_approval.bpel.assign.name has value CopyFaultValue
+riskAssessmentPT.wsdl.wsdl:fault.name has value loanProcessFault
+risk_assessment.bpel.variable.messageType has value lns:checkMessage
+loan_approval.bpel.process.xmlns has value http://docs.oasis-open.org/wsbpel/2.0/process/executable also at risk_assessment.bpel.process.xmlns
+risk_assessment.bpel.process.xmlns has value http://docs.oasis-open.org/wsbpel/2.0/process/executable also at loan_approval.bpel.process.xmlns
+deploy.xml.deploy.xmlns:examples has value http://www.jboss.org/bpel/examples
+loan_approval.bpel.from.header has value exampleHeader also at loan_approval.bpel.to.header also at loan_approval.bpel.from.header also at loan_approval.bpel.to.header also at risk_assessment.bpel.to.header
+loan_approval.bpel.to.header has value exampleHeader also at loan_approval.bpel.from.header also at loan_approval.bpel.from.header also at loan_approval.bpel.to.header also at risk_assessment.bpel.to.header
+loan_approval.bpel.from.header has value exampleHeader also at loan_approval.bpel.from.header also at loan_approval.bpel.to.header also at loan_approval.bpel.to.header also at risk_assessment.bpel.to.header
+loan_approval.bpel.to.header has value exampleHeader also at loan_approval.bpel.from.header also at loan_approval.bpel.to.header also at loan_approval.bpel.from.header also at risk_assessment.bpel.to.header
+risk_assessment.bpel.to.header has value exampleHeader also at loan_approval.bpel.from.header also at loan_approval.bpel.to.header also at loan_approval.bpel.from.header also at loan_approval.bpel.to.header
+loanServicePT.wsdl.soap:binding.style has value document
+deploy.xml.service.name has value domain:riskAssessor also at deploy.xml.service.name
+deploy.xml.service.name has value domain:riskAssessor also at deploy.xml.service.name
+loanServicePT.wsdl.message.name has value requestResponseMessage
+switchyard.xml.sca:interface.wsdl.interface has value loanServicePT.wsdl#wsdl.porttype(loanServicePT)
+loanServicePT.wsdl.definitions.xmlns:soap has value http://schemas.xmlsoap.org/wsdl/soap/ also at riskAssessmentPT.wsdl.wsdl:definitions.xmlns:soap
+riskAssessmentPT.wsdl.wsdl:definitions.xmlns:soap has value http://schemas.xmlsoap.org/wsdl/soap/ also at loanServicePT.wsdl.definitions.xmlns:soap
+deploy.xml.process.name has value ls:loanApprovalProcess also at switchyard.xml.bpel:implementation.bpel.process
+switchyard.xml.bpel:implementation.bpel.process has value ls:loanApprovalProcess also at deploy.xml.process.name
+loan_approval.bpel.partnerLink.partnerLinkType has value lns:loanPartnerLT
+loanServicePT.wsdl.fault.name has value unableToHandleRequest also at loanServicePT.wsdl.fault.name also at loanServicePT.wsdl.soap:fault.name
+loanServicePT.wsdl.fault.name has value unableToHandleRequest also at loanServicePT.wsdl.fault.name also at loanServicePT.wsdl.soap:fault.name
+loanServicePT.wsdl.soap:fault.name has value unableToHandleRequest also at loanServicePT.wsdl.fault.name also at loanServicePT.wsdl.fault.name
+loanServicePT.wsdl.xsd:element.type has value xsd:integer also at loanServicePT.wsdl.element.type also at riskAssessmentPT.wsdl.xsd:element.type also at riskAssessmentPT.wsdl.element.type
+loanServicePT.wsdl.element.type has value xsd:integer also at loanServicePT.wsdl.xsd:element.type also at riskAssessmentPT.wsdl.xsd:element.type also at riskAssessmentPT.wsdl.element.type
+riskAssessmentPT.wsdl.xsd:element.type has value xsd:integer also at loanServicePT.wsdl.xsd:element.type also at loanServicePT.wsdl.element.type also at riskAssessmentPT.wsdl.element.type
+riskAssessmentPT.wsdl.element.type has value xsd:integer also at loanServicePT.wsdl.xsd:element.type also at loanServicePT.wsdl.element.type also at riskAssessmentPT.wsdl.xsd:element.type
+loan_approval.bpel.reply.portType has value lns:loanServicePT also at loan_approval.bpel.receive.portType also at loan_approval.bpel.reply.portType
+loan_approval.bpel.receive.portType has value lns:loanServicePT also at loan_approval.bpel.reply.portType also at loan_approval.bpel.reply.portType
+loan_approval.bpel.reply.portType has value lns:loanServicePT also at loan_approval.bpel.reply.portType also at loan_approval.bpel.receive.portType
+loanServicePT.wsdl.portType.name has value loanServicePT
+loanServicePT.wsdl.xsd:element.name has value integer also at riskAssessmentPT.wsdl.xsd:element.name
+riskAssessmentPT.wsdl.xsd:element.name has value integer also at loanServicePT.wsdl.xsd:element.name
+deploy.xml.deploy.xmlns:domain has value urn:switchyard-quickstart:bpel-loan-approval:0.1.0 also at switchyard.xml.switchyard.targetNamespace also at switchyard.xml.sca:composite.targetNamespace
+switchyard.xml.switchyard.targetNamespace has value urn:switchyard-quickstart:bpel-loan-approval:0.1.0 also at deploy.xml.deploy.xmlns:domain also at switchyard.xml.sca:composite.targetNamespace
+switchyard.xml.sca:composite.targetNamespace has value urn:switchyard-quickstart:bpel-loan-approval:0.1.0 also at deploy.xml.deploy.xmlns:domain also at switchyard.xml.switchyard.targetNamespace
+loanServicePT.wsdl.definitions.xmlns:ens has value http://example.com/loan-approval/xsd/error-messages/ also at loanServicePT.wsdl.xsd:schema.targetNamespace also at risk_assessment.bpel.integer.xmlns also at riskAssessmentPT.wsdl.wsdl:definitions.xmlns:ens also at riskAssessmentPT.wsdl.xsd:schema.targetNamespace
+loanServicePT.wsdl.xsd:schema.targetNamespace has value http://example.com/loan-approval/xsd/error-messages/ also at loanServicePT.wsdl.definitions.xmlns:ens also at risk_assessment.bpel.integer.xmlns also at riskAssessmentPT.wsdl.wsdl:definitions.xmlns:ens also at riskAssessmentPT.wsdl.xsd:schema.targetNamespace
+risk_assessment.bpel.integer.xmlns has value http://example.com/loan-approval/xsd/error-messages/ also at loanServicePT.wsdl.definitions.xmlns:ens also at loanServicePT.wsdl.xsd:schema.targetNamespace also at riskAssessmentPT.wsdl.wsdl:definitions.xmlns:ens also at riskAssessmentPT.wsdl.xsd:schema.targetNamespace
+riskAssessmentPT.wsdl.wsdl:definitions.xmlns:ens has value http://example.com/loan-approval/xsd/error-messages/ also at loanServicePT.wsdl.definitions.xmlns:ens also at loanServicePT.wsdl.xsd:schema.targetNamespace also at risk_assessment.bpel.integer.xmlns also at riskAssessmentPT.wsdl.xsd:schema.targetNamespace
+riskAssessmentPT.wsdl.xsd:schema.targetNamespace has value http://example.com/loan-approval/xsd/error-messages/ also at loanServicePT.wsdl.definitions.xmlns:ens also at loanServicePT.wsdl.xsd:schema.targetNamespace also at risk_assessment.bpel.integer.xmlns also at riskAssessmentPT.wsdl.wsdl:definitions.xmlns:ens
+loanServicePT.wsdl.port.name has value loanService_Port
+loan_approval.bpel.process.suppressJoinFailure has value yes also at loan_approval.bpel.receive.createInstance also at risk_assessment.bpel.process.suppressJoinFailure also at risk_assessment.bpel.receive.createInstance
+loan_approval.bpel.receive.createInstance has value yes also at loan_approval.bpel.process.suppressJoinFailure also at risk_assessment.bpel.process.suppressJoinFailure also at risk_assessment.bpel.receive.createInstance
+risk_assessment.bpel.process.suppressJoinFailure has value yes also at loan_approval.bpel.process.suppressJoinFailure also at loan_approval.bpel.receive.createInstance also at risk_assessment.bpel.receive.createInstance
+risk_assessment.bpel.receive.createInstance has value yes also at loan_approval.bpel.process.suppressJoinFailure also at loan_approval.bpel.receive.createInstance also at risk_assessment.bpel.process.suppressJoinFailure
+loanServicePT.wsdl.part.element has value ens:integer also at riskAssessmentPT.wsdl.wsdl:part.element
+riskAssessmentPT.wsdl.wsdl:part.element has value ens:integer also at loanServicePT.wsdl.part.element
+loanServicePT.wsdl.element.type has value string also at riskAssessmentPT.wsdl.element.type
+riskAssessmentPT.wsdl.element.type has value string also at loanServicePT.wsdl.element.type
+risk_assessment.bpel.reply.faultName has value lns:loanProcessFault
+loan_approval.bpel.from.part has value errorCode also at loan_approval.bpel.to.part also at loanServicePT.wsdl.part.name also at risk_assessment.bpel.to.part also at riskAssessmentPT.wsdl.wsdl:part.name
+loan_approval.bpel.to.part has value errorCode also at loan_approval.bpel.from.part also at loanServicePT.wsdl.part.name also at risk_assessment.bpel.to.part also at riskAssessmentPT.wsdl.wsdl:part.name
+loanServicePT.wsdl.part.name has value errorCode also at loan_approval.bpel.from.part also at loan_approval.bpel.to.part also at risk_assessment.bpel.to.part also at riskAssessmentPT.wsdl.wsdl:part.name
+risk_assessment.bpel.to.part has value errorCode also at loan_approval.bpel.from.part also at loan_approval.bpel.to.part also at loanServicePT.wsdl.part.name also at riskAssessmentPT.wsdl.wsdl:part.name
+riskAssessmentPT.wsdl.wsdl:part.name has value errorCode also at loan_approval.bpel.from.part also at loan_approval.bpel.to.part also at loanServicePT.wsdl.part.name also at risk_assessment.bpel.to.part
+loan_approval.bpel.assign.name has value AssignName also at loan_approval.bpel.assign.name also at risk_assessment.bpel.assign.name
+loan_approval.bpel.assign.name has value AssignName also at loan_approval.bpel.assign.name also at risk_assessment.bpel.assign.name
+risk_assessment.bpel.assign.name has value AssignName also at loan_approval.bpel.assign.name also at loan_approval.bpel.assign.name
+loanServicePT.wsdl.part.element has value tns:request
+loanServicePT.wsdl.xsd:schema.elementFormDefault has value qualified also at riskAssessmentPT.wsdl.xsd:schema.elementFormDefault
+riskAssessmentPT.wsdl.xsd:schema.elementFormDefault has value qualified also at loanServicePT.wsdl.xsd:schema.elementFormDefault
+risk_assessment.bpel.process.name has value riskAssessmentProcess
+loan_approval.bpel.variable.messageType has value ans:checkResponseMessage
+riskAssessmentPT.wsdl.wsdl:input.message has value tns:checkMessage
+riskAssessmentPT.wsdl.wsdl:portType.name has value riskAssessmentPT
+deploy.xml.service.name has value domain:loanService
+loanServicePT.wsdl.element.name has value amount also at riskAssessmentPT.wsdl.element.name
+riskAssessmentPT.wsdl.element.name has value amount also at loanServicePT.wsdl.element.name
+riskAssessmentPT.wsdl.element.name has value level
+loan_approval.bpel.process.name has value loanApprovalProcess
+loan_approval.bpel.invoke.portType has value lns:riskAssessmentPT also at risk_assessment.bpel.receive.portType also at risk_assessment.bpel.reply.portType also at risk_assessment.bpel.reply.portType
+risk_assessment.bpel.receive.portType has value lns:riskAssessmentPT also at loan_approval.bpel.invoke.portType also at risk_assessment.bpel.reply.portType also at risk_assessment.bpel.reply.portType
+risk_assessment.bpel.reply.portType has value lns:riskAssessmentPT also at loan_approval.bpel.invoke.portType also at risk_assessment.bpel.receive.portType also at risk_assessment.bpel.reply.portType
+risk_assessment.bpel.reply.portType has value lns:riskAssessmentPT also at loan_approval.bpel.invoke.portType also at risk_assessment.bpel.receive.portType also at risk_assessment.bpel.reply.portType
+loan_approval.bpel.variable.name has value request also at loan_approval.bpel.reply.operation also at loan_approval.bpel.receive.operation also at loan_approval.bpel.receive.variable also at loan_approval.bpel.from.variable also at loan_approval.bpel.from.variable also at loan_approval.bpel.from.variable also at loan_approval.bpel.reply.operation also at loanServicePT.wsdl.element.name also at loanServicePT.wsdl.operation.name also at loanServicePT.wsdl.operation.name
+loan_approval.bpel.reply.operation has value request also at loan_approval.bpel.variable.name also at loan_approval.bpel.receive.operation also at loan_approval.bpel.receive.variable also at loan_approval.bpel.from.variable also at loan_approval.bpel.from.variable also at loan_approval.bpel.from.variable also at loan_approval.bpel.reply.operation also at loanServicePT.wsdl.element.name also at loanServicePT.wsdl.operation.name also at loanServicePT.wsdl.operation.name
+loan_approval.bpel.receive.operation has value request also at loan_approval.bpel.variable.name also at loan_approval.bpel.reply.operation also at loan_approval.bpel.receive.variable also at loan_approval.bpel.from.variable also at loan_approval.bpel.from.variable also at loan_approval.bpel.from.variable also at loan_approval.bpel.reply.operation also at loanServicePT.wsdl.element.name also at loanServicePT.wsdl.operation.name also at loanServicePT.wsdl.operation.name
+loan_approval.bpel.receive.variable has value request also at loan_approval.bpel.variable.name also at loan_approval.bpel.reply.operation also at loan_approval.bpel.receive.operation also at loan_approval.bpel.from.variable also at loan_approval.bpel.from.variable also at loan_approval.bpel.from.variable also at loan_approval.bpel.reply.operation also at loanServicePT.wsdl.element.name also at loanServicePT.wsdl.operation.name also at loanServicePT.wsdl.operation.name
+loan_approval.bpel.from.variable has value request also at loan_approval.bpel.variable.name also at loan_approval.bpel.reply.operation also at loan_approval.bpel.receive.operation also at loan_approval.bpel.receive.variable also at loan_approval.bpel.from.variable also at loan_approval.bpel.from.variable also at loan_approval.bpel.reply.operation also at loanServicePT.wsdl.element.name also at loanServicePT.wsdl.operation.name also at loanServicePT.wsdl.operation.name
+loan_approval.bpel.from.variable has value request also at loan_approval.bpel.variable.name also at loan_approval.bpel.reply.operation also at loan_approval.bpel.receive.operation also at loan_approval.bpel.receive.variable also at loan_approval.bpel.from.variable also at loan_approval.bpel.from.variable also at loan_approval.bpel.reply.operation also at loanServicePT.wsdl.element.name also at loanServicePT.wsdl.operation.name also at loanServicePT.wsdl.operation.name
+loan_approval.bpel.from.variable has value request also at loan_approval.bpel.variable.name also at loan_approval.bpel.reply.operation also at loan_approval.bpel.receive.operation also at loan_approval.bpel.receive.variable also at loan_approval.bpel.from.variable also at loan_approval.bpel.from.variable also at loan_approval.bpel.reply.operation also at loanServicePT.wsdl.element.name also at loanServicePT.wsdl.operation.name also at loanServicePT.wsdl.operation.name
+loan_approval.bpel.reply.operation has value request also at loan_approval.bpel.variable.name also at loan_approval.bpel.reply.operation also at loan_approval.bpel.receive.operation also at loan_approval.bpel.receive.variable also at loan_approval.bpel.from.variable also at loan_approval.bpel.from.variable also at loan_approval.bpel.from.variable also at loanServicePT.wsdl.element.name also at loanServicePT.wsdl.operation.name also at loanServicePT.wsdl.operation.name
+loanServicePT.wsdl.element.name has value request also at loan_approval.bpel.variable.name also at loan_approval.bpel.reply.operation also at loan_approval.bpel.receive.operation also at loan_approval.bpel.receive.variable also at loan_approval.bpel.from.variable also at loan_approval.bpel.from.variable also at loan_approval.bpel.from.variable also at loan_approval.bpel.reply.operation also at loanServicePT.wsdl.operation.name also at loanServicePT.wsdl.operation.name
+loanServicePT.wsdl.operation.name has value request also at loan_approval.bpel.variable.name also at loan_approval.bpel.reply.operation also at loan_approval.bpel.receive.operation also at loan_approval.bpel.receive.variable also at loan_approval.bpel.from.variable also at loan_approval.bpel.from.variable also at loan_approval.bpel.from.variable also at loan_approval.bpel.reply.operation also at loanServicePT.wsdl.element.name also at loanServicePT.wsdl.operation.name
+loanServicePT.wsdl.operation.name has value request also at loan_approval.bpel.variable.name also at loan_approval.bpel.reply.operation also at loan_approval.bpel.receive.operation also at loan_approval.bpel.receive.variable also at loan_approval.bpel.from.variable also at loan_approval.bpel.from.variable also at loan_approval.bpel.from.variable also at loan_approval.bpel.reply.operation also at loanServicePT.wsdl.element.name also at loanServicePT.wsdl.operation.name
+switchyard.xml.sca:interface.wsdl.interface has value riskAssessmentPT.wsdl#wsdl.porttype(riskAssessmentPT) also at switchyard.xml.sca:interface.wsdl.interface
+switchyard.xml.sca:interface.wsdl.interface has value riskAssessmentPT.wsdl#wsdl.porttype(riskAssessmentPT) also at switchyard.xml.sca:interface.wsdl.interface
+risk_assessment.bpel.variable.messageType has value lns:checkResponseMessage
+loan_approval.bpel.process.queryLanguage has value urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0 also at loan_approval.bpel.process.expressionLanguage also at risk_assessment.bpel.process.queryLanguage also at risk_assessment.bpel.process.expressionLanguage
+loan_approval.bpel.process.expressionLanguage has value urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0 also at loan_approval.bpel.process.queryLanguage also at risk_assessment.bpel.process.queryLanguage also at risk_assessment.bpel.process.expressionLanguage
+risk_assessment.bpel.process.queryLanguage has value urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0 also at loan_approval.bpel.process.queryLanguage also at loan_approval.bpel.process.expressionLanguage also at risk_assessment.bpel.process.expressionLanguage
+risk_assessment.bpel.process.expressionLanguage has value urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0 also at loan_approval.bpel.process.queryLanguage also at loan_approval.bpel.process.expressionLanguage also at risk_assessment.bpel.process.queryLanguage
+riskAssessmentPT.wsdl.wsdl:part.element has value tns:checkResponse
+loanServicePT.wsdl.part.element has value tns:requestResponse
+loanServicePT.wsdl.definitions.xmlns:plnk has value http://docs.oasis-open.org/wsbpel/2.0/plnktype also at riskAssessmentPT.wsdl.wsdl:definitions.xmlns:plnk
+riskAssessmentPT.wsdl.wsdl:definitions.xmlns:plnk has value http://docs.oasis-open.org/wsbpel/2.0/plnktype also at loanServicePT.wsdl.definitions.xmlns:plnk
+switchyard.xml.sca:composite.name has value loanservice
+switchyard.xml.sca:reference.name has value riskAssessor also at switchyard.xml.sca:component.name also at switchyard.xml.sca:service.name
+switchyard.xml.sca:component.name has value riskAssessor also at switchyard.xml.sca:reference.name also at switchyard.xml.sca:service.name
+switchyard.xml.sca:service.name has value riskAssessor also at switchyard.xml.sca:reference.name also at switchyard.xml.sca:component.name
+loan_approval.bpel.variable.name has value checkResponse also at loan_approval.bpel.invoke.outputVariable also at loan_approval.bpel.from.variable also at loan_approval.bpel.from.variable also at risk_assessment.bpel.variable.name also at risk_assessment.bpel.to.variable also at risk_assessment.bpel.to.variable also at risk_assessment.bpel.to.variable also at risk_assessment.bpel.reply.variable also at riskAssessmentPT.wsdl.element.name
+loan_approval.bpel.invoke.outputVariable has value checkResponse also at loan_approval.bpel.variable.name also at loan_approval.bpel.from.variable also at loan_approval.bpel.from.variable also at risk_assessment.bpel.variable.name also at risk_assessment.bpel.to.variable also at risk_assessment.bpel.to.variable also at risk_assessment.bpel.to.variable also at risk_assessment.bpel.reply.variable also at riskAssessmentPT.wsdl.element.name
+loan_approval.bpel.from.variable has value checkResponse also at loan_approval.bpel.variable.name also at loan_approval.bpel.invoke.outputVariable also at loan_approval.bpel.from.variable also at risk_assessment.bpel.variable.name also at risk_assessment.bpel.to.variable also at risk_assessment.bpel.to.variable also at risk_assessment.bpel.to.variable also at risk_assessment.bpel.reply.variable also at riskAssessmentPT.wsdl.element.name
+loan_approval.bpel.from.variable has value checkResponse also at loan_approval.bpel.variable.name also at loan_approval.bpel.invoke.outputVariable also at loan_approval.bpel.from.variable also at risk_assessment.bpel.variable.name also at risk_assessment.bpel.to.variable also at risk_assessment.bpel.to.variable also at risk_assessment.bpel.to.variable also at risk_assessment.bpel.reply.variable also at riskAssessmentPT.wsdl.element.name
+risk_assessment.bpel.variable.name has value checkResponse also at loan_approval.bpel.variable.name also at loan_approval.bpel.invoke.outputVariable also at loan_approval.bpel.from.variable also at loan_approval.bpel.from.variable also at risk_assessment.bpel.to.variable also at risk_assessment.bpel.to.variable also at risk_assessment.bpel.to.variable also at risk_assessment.bpel.reply.variable also at riskAssessmentPT.wsdl.element.name
+risk_assessment.bpel.to.variable has value checkResponse also at loan_approval.bpel.variable.name also at loan_approval.bpel.invoke.outputVariable also at loan_approval.bpel.from.variable also at loan_approval.bpel.from.variable also at risk_assessment.bpel.variable.name also at risk_assessment.bpel.to.variable also at risk_assessment.bpel.to.variable also at risk_assessment.bpel.reply.variable also at riskAssessmentPT.wsdl.element.name
+risk_assessment.bpel.to.variable has value checkResponse also at loan_approval.bpel.variable.name also at loan_approval.bpel.invoke.outputVariable also at loan_approval.bpel.from.variable also at loan_approval.bpel.from.variable also at risk_assessment.bpel.variable.name also at risk_assessment.bpel.to.variable also at risk_assessment.bpel.to.variable also at risk_assessment.bpel.reply.variable also at riskAssessmentPT.wsdl.element.name
+risk_assessment.bpel.to.variable has value checkResponse also at loan_approval.bpel.variable.name also at loan_approval.bpel.invoke.outputVariable also at loan_approval.bpel.from.variable also at loan_approval.bpel.from.variable also at risk_assessment.bpel.variable.name also at risk_assessment.bpel.to.variable also at risk_assessment.bpel.to.variable also at risk_assessment.bpel.reply.variable also at riskAssessmentPT.wsdl.element.name
+risk_assessment.bpel.reply.variable has value checkResponse also at loan_approval.bpel.variable.name also at loan_approval.bpel.invoke.outputVariable also at loan_approval.bpel.from.variable also at loan_approval.bpel.from.variable also at risk_assessment.bpel.variable.name also at risk_assessment.bpel.to.variable also at risk_assessment.bpel.to.variable also at risk_assessment.bpel.to.variable also at riskAssessmentPT.wsdl.element.name
+riskAssessmentPT.wsdl.element.name has value checkResponse also at loan_approval.bpel.variable.name also at loan_approval.bpel.invoke.outputVariable also at loan_approval.bpel.from.variable also at loan_approval.bpel.from.variable also at risk_assessment.bpel.variable.name also at risk_assessment.bpel.to.variable also at risk_assessment.bpel.to.variable also at risk_assessment.bpel.to.variable also at risk_assessment.bpel.reply.variable
+deploy.xml.deploy.xmlns has value http://www.apache.org/ode/schemas/dd/2007/03
+switchyard.xml.soap:contextMapper.soapHeadersType has value DOM
+loanServicePT.wsdl.definitions.xmlns:xsd has value http://www.w3.org/2001/XMLSchema also at loanServicePT.wsdl.xsd:schema.xmlns also at riskAssessmentPT.wsdl.wsdl:definitions.xmlns:xsd also at riskAssessmentPT.wsdl.xsd:schema.xmlns
+loanServicePT.wsdl.xsd:schema.xmlns has value http://www.w3.org/2001/XMLSchema also at loanServicePT.wsdl.definitions.xmlns:xsd also at riskAssessmentPT.wsdl.wsdl:definitions.xmlns:xsd also at riskAssessmentPT.wsdl.xsd:schema.xmlns
+riskAssessmentPT.wsdl.wsdl:definitions.xmlns:xsd has value http://www.w3.org/2001/XMLSchema also at loanServicePT.wsdl.definitions.xmlns:xsd also at loanServicePT.wsdl.xsd:schema.xmlns also at riskAssessmentPT.wsdl.xsd:schema.xmlns
+riskAssessmentPT.wsdl.xsd:schema.xmlns has value http://www.w3.org/2001/XMLSchema also at loanServicePT.wsdl.definitions.xmlns:xsd also at loanServicePT.wsdl.xsd:schema.xmlns also at riskAssessmentPT.wsdl.wsdl:definitions.xmlns:xsd
+loanServicePT.wsdl.input.message has value tns:requestMessage
+loanServicePT.wsdl.message.name has value errorMessage also at riskAssessmentPT.wsdl.wsdl:message.name
+riskAssessmentPT.wsdl.wsdl:message.name has value errorMessage also at loanServicePT.wsdl.message.name
+deploy.xml.service.port has value ignored also at deploy.xml.service.port also at deploy.xml.service.port
+deploy.xml.service.port has value ignored also at deploy.xml.service.port also at deploy.xml.service.port
+deploy.xml.service.port has value ignored also at deploy.xml.service.port also at deploy.xml.service.port
+loan_approval.bpel.tns:RequestResponse.xmlns:xsi has value http://www.w3.org/2001/XMLSchema-instance also at risk_assessment.bpel.tns:CheckResponse.xmlns:xsi
+risk_assessment.bpel.tns:CheckResponse.xmlns:xsi has value http://www.w3.org/2001/XMLSchema-instance also at loan_approval.bpel.tns:RequestResponse.xmlns:xsi
+loanServicePT.wsdl.plnk:partnerLinkType.name has value loanPartnerLT
+switchyard.xml.switchyard.xmlns:bpel has value http://docs.oasis-open.org/ns/opencsa/sca/200912 also at switchyard.xml.switchyard.xmlns:sca
+switchyard.xml.switchyard.xmlns:sca has value http://docs.oasis-open.org/ns/opencsa/sca/200912 also at switchyard.xml.switchyard.xmlns:bpel
+loanServicePT.wsdl.soap:binding.transport has value http://schemas.xmlsoap.org/soap/http
+switchyard.xml.switchyard.xmlns has value urn:switchyard-config:switchyard:1.0 also at switchyard.xml.switchyard.xmlns:swyd
+switchyard.xml.switchyard.xmlns:swyd has value urn:switchyard-config:switchyard:1.0 also at switchyard.xml.switchyard.xmlns
+loan_approval.bpel.variable.messageType has value ans:checkMessage
+riskAssessmentPT.wsdl.plnk:role.portType has value tns:riskAssessmentPT
+loanServicePT.wsdl.fault.message has value tns:errorMessage also at riskAssessmentPT.wsdl.wsdl:fault.message
+riskAssessmentPT.wsdl.wsdl:fault.message has value tns:errorMessage also at loanServicePT.wsdl.fault.message
+loan_approval.bpel.to.part has value parameter also at loan_approval.bpel.from.part also at loan_approval.bpel.to.part also at loan_approval.bpel.to.part also at loanServicePT.wsdl.part.name also at loanServicePT.wsdl.part.name also at risk_assessment.bpel.to.part also at riskAssessmentPT.wsdl.wsdl:part.name also at riskAssessmentPT.wsdl.wsdl:part.name
+loan_approval.bpel.from.part has value parameter also at loan_approval.bpel.to.part also at loan_approval.bpel.to.part also at loan_approval.bpel.to.part also at loanServicePT.wsdl.part.name also at loanServicePT.wsdl.part.name also at risk_assessment.bpel.to.part also at riskAssessmentPT.wsdl.wsdl:part.name also at riskAssessmentPT.wsdl.wsdl:part.name
+loan_approval.bpel.to.part has value parameter also at loan_approval.bpel.to.part also at loan_approval.bpel.from.part also at loan_approval.bpel.to.part also at loanServicePT.wsdl.part.name also at loanServicePT.wsdl.part.name also at risk_assessment.bpel.to.part also at riskAssessmentPT.wsdl.wsdl:part.name also at riskAssessmentPT.wsdl.wsdl:part.name
+loan_approval.bpel.to.part has value parameter also at loan_approval.bpel.to.part also at loan_approval.bpel.from.part also at loan_approval.bpel.to.part also at loanServicePT.wsdl.part.name also at loanServicePT.wsdl.part.name also at risk_assessment.bpel.to.part also at riskAssessmentPT.wsdl.wsdl:part.name also at riskAssessmentPT.wsdl.wsdl:part.name
+loanServicePT.wsdl.part.name has value parameter also at loan_approval.bpel.to.part also at loan_approval.bpel.from.part also at loan_approval.bpel.to.part also at loan_approval.bpel.to.part also at loanServicePT.wsdl.part.name also at risk_assessment.bpel.to.part also at riskAssessmentPT.wsdl.wsdl:part.name also at riskAssessmentPT.wsdl.wsdl:part.name
+loanServicePT.wsdl.part.name has value parameter also at loan_approval.bpel.to.part also at loan_approval.bpel.from.part also at loan_approval.bpel.to.part also at loan_approval.bpel.to.part also at loanServicePT.wsdl.part.name also at risk_assessment.bpel.to.part also at riskAssessmentPT.wsdl.wsdl:part.name also at riskAssessmentPT.wsdl.wsdl:part.name
+risk_assessment.bpel.to.part has value parameter also at loan_approval.bpel.to.part also at loan_approval.bpel.from.part also at loan_approval.bpel.to.part also at loan_approval.bpel.to.part also at loanServicePT.wsdl.part.name also at loanServicePT.wsdl.part.name also at riskAssessmentPT.wsdl.wsdl:part.name also at riskAssessmentPT.wsdl.wsdl:part.name
+riskAssessmentPT.wsdl.wsdl:part.name has value parameter also at loan_approval.bpel.to.part also at loan_approval.bpel.from.part also at loan_approval.bpel.to.part also at loan_approval.bpel.to.part also at loanServicePT.wsdl.part.name also at loanServicePT.wsdl.part.name also at risk_assessment.bpel.to.part also at riskAssessmentPT.wsdl.wsdl:part.name
+riskAssessmentPT.wsdl.wsdl:part.name has value parameter also at loan_approval.bpel.to.part also at loan_approval.bpel.from.part also at loan_approval.bpel.to.part also at loan_approval.bpel.to.part also at loanServicePT.wsdl.part.name also at loanServicePT.wsdl.part.name also at risk_assessment.bpel.to.part also at riskAssessmentPT.wsdl.wsdl:part.name
+loan_approval.bpel.variable.messageType has value lns:errorMessage also at risk_assessment.bpel.variable.messageType
+risk_assessment.bpel.variable.messageType has value lns:errorMessage also at loan_approval.bpel.variable.messageType
+loanServicePT.wsdl.element.name has value name also at riskAssessmentPT.wsdl.element.name
+riskAssessmentPT.wsdl.element.name has value name also at loanServicePT.wsdl.element.name
+switchyard.xml.switchyard.xmlns:trfm has value urn:switchyard-config:transform:1.0
+loan_approval.bpel.import.importType has value http://schemas.xmlsoap.org/wsdl/ also at loan_approval.bpel.import.importType also at loanServicePT.wsdl.definitions.xmlns also at risk_assessment.bpel.import.importType also at riskAssessmentPT.wsdl.wsdl:definitions.xmlns:wsdl
+loan_approval.bpel.import.importType has value http://schemas.xmlsoap.org/wsdl/ also at loan_approval.bpel.import.importType also at loanServicePT.wsdl.definitions.xmlns also at risk_assessment.bpel.import.importType also at riskAssessmentPT.wsdl.wsdl:definitions.xmlns:wsdl
+loanServicePT.wsdl.definitions.xmlns has value http://schemas.xmlsoap.org/wsdl/ also at loan_approval.bpel.import.importType also at loan_approval.bpel.import.importType also at risk_assessment.bpel.import.importType also at riskAssessmentPT.wsdl.wsdl:definitions.xmlns:wsdl
+risk_assessment.bpel.import.importType has value http://schemas.xmlsoap.org/wsdl/ also at loan_approval.bpel.import.importType also at loan_approval.bpel.import.importType also at loanServicePT.wsdl.definitions.xmlns also at riskAssessmentPT.wsdl.wsdl:definitions.xmlns:wsdl
+riskAssessmentPT.wsdl.wsdl:definitions.xmlns:wsdl has value http://schemas.xmlsoap.org/wsdl/ also at loan_approval.bpel.import.importType also at loan_approval.bpel.import.importType also at loanServicePT.wsdl.definitions.xmlns also at risk_assessment.bpel.import.importType
+loanServicePT.wsdl.plnk:role.portType has value tns:loanServicePT also at loanServicePT.wsdl.binding.type
+loanServicePT.wsdl.binding.type has value tns:loanServicePT also at loanServicePT.wsdl.plnk:role.portType
+loanServicePT.wsdl.element.name has value firstName also at riskAssessmentPT.wsdl.element.name
+riskAssessmentPT.wsdl.element.name has value firstName also at loanServicePT.wsdl.element.name
+risk_assessment.bpel.assign.name has value AssignFaultValue
+loan_approval.bpel.catch.faultMessageType has value ans:errorMessage
+deploy.xml.process-events.generate has value all also at deploy.xml.process-events.generate
+deploy.xml.process-events.generate has value all also at deploy.xml.process-events.generate
+loan_approval.bpel.catch.faultVariable has value error also at loan_approval.bpel.from.variable
+loan_approval.bpel.from.variable has value error also at loan_approval.bpel.catch.faultVariable
+loan_approval.bpel.variable.name has value check also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.invoke.operation also at loan_approval.bpel.invoke.inputVariable also at risk_assessment.bpel.variable.name also at risk_assessment.bpel.receive.operation also at risk_assessment.bpel.receive.variable also at risk_assessment.bpel.reply.operation also at risk_assessment.bpel.from.variable also at risk_assessment.bpel.reply.operation also at riskAssessmentPT.wsdl.element.name also at riskAssessmentPT.wsdl.wsdl:operation.name
+loan_approval.bpel.to.variable has value check also at loan_approval.bpel.variable.name also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.invoke.operation also at loan_approval.bpel.invoke.inputVariable also at risk_assessment.bpel.variable.name also at risk_assessment.bpel.receive.operation also at risk_assessment.bpel.receive.variable also at risk_assessment.bpel.reply.operation also at risk_assessment.bpel.from.variable also at risk_assessment.bpel.reply.operation also at riskAssessmentPT.wsdl.element.name also at riskAssessmentPT.wsdl.wsdl:operation.name
+loan_approval.bpel.to.variable has value check also at loan_approval.bpel.variable.name also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.invoke.operation also at loan_approval.bpel.invoke.inputVariable also at risk_assessment.bpel.variable.name also at risk_assessment.bpel.receive.operation also at risk_assessment.bpel.receive.variable also at risk_assessment.bpel.reply.operation also at risk_assessment.bpel.from.variable also at risk_assessment.bpel.reply.operation also at riskAssessmentPT.wsdl.element.name also at riskAssessmentPT.wsdl.wsdl:operation.name
+loan_approval.bpel.to.variable has value check also at loan_approval.bpel.variable.name also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.invoke.operation also at loan_approval.bpel.invoke.inputVariable also at risk_assessment.bpel.variable.name also at risk_assessment.bpel.receive.operation also at risk_assessment.bpel.receive.variable also at risk_assessment.bpel.reply.operation also at risk_assessment.bpel.from.variable also at risk_assessment.bpel.reply.operation also at riskAssessmentPT.wsdl.element.name also at riskAssessmentPT.wsdl.wsdl:operation.name
+loan_approval.bpel.to.variable has value check also at loan_approval.bpel.variable.name also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.invoke.operation also at loan_approval.bpel.invoke.inputVariable also at risk_assessment.bpel.variable.name also at risk_assessment.bpel.receive.operation also at risk_assessment.bpel.receive.variable also at risk_assessment.bpel.reply.operation also at risk_assessment.bpel.from.variable also at risk_assessment.bpel.reply.operation also at riskAssessmentPT.wsdl.element.name also at riskAssessmentPT.wsdl.wsdl:operation.name
+loan_approval.bpel.invoke.operation has value check also at loan_approval.bpel.variable.name also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.invoke.inputVariable also at risk_assessment.bpel.variable.name also at risk_assessment.bpel.receive.operation also at risk_assessment.bpel.receive.variable also at risk_assessment.bpel.reply.operation also at risk_assessment.bpel.from.variable also at risk_assessment.bpel.reply.operation also at riskAssessmentPT.wsdl.element.name also at riskAssessmentPT.wsdl.wsdl:operation.name
+loan_approval.bpel.invoke.inputVariable has value check also at loan_approval.bpel.variable.name also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.invoke.operation also at risk_assessment.bpel.variable.name also at risk_assessment.bpel.receive.operation also at risk_assessment.bpel.receive.variable also at risk_assessment.bpel.reply.operation also at risk_assessment.bpel.from.variable also at risk_assessment.bpel.reply.operation also at riskAssessmentPT.wsdl.element.name also at riskAssessmentPT.wsdl.wsdl:operation.name
+risk_assessment.bpel.variable.name has value check also at loan_approval.bpel.variable.name also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.invoke.operation also at loan_approval.bpel.invoke.inputVariable also at risk_assessment.bpel.receive.operation also at risk_assessment.bpel.receive.variable also at risk_assessment.bpel.reply.operation also at risk_assessment.bpel.from.variable also at risk_assessment.bpel.reply.operation also at riskAssessmentPT.wsdl.element.name also at riskAssessmentPT.wsdl.wsdl:operation.name
+risk_assessment.bpel.receive.operation has value check also at loan_approval.bpel.variable.name also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.invoke.operation also at loan_approval.bpel.invoke.inputVariable also at risk_assessment.bpel.variable.name also at risk_assessment.bpel.receive.variable also at risk_assessment.bpel.reply.operation also at risk_assessment.bpel.from.variable also at risk_assessment.bpel.reply.operation also at riskAssessmentPT.wsdl.element.name also at riskAssessmentPT.wsdl.wsdl:operation.name
+risk_assessment.bpel.receive.variable has value check also at loan_approval.bpel.variable.name also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.invoke.operation also at loan_approval.bpel.invoke.inputVariable also at risk_assessment.bpel.variable.name also at risk_assessment.bpel.receive.operation also at risk_assessment.bpel.reply.operation also at risk_assessment.bpel.from.variable also at risk_assessment.bpel.reply.operation also at riskAssessmentPT.wsdl.element.name also at riskAssessmentPT.wsdl.wsdl:operation.name
+risk_assessment.bpel.reply.operation has value check also at loan_approval.bpel.variable.name also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.invoke.operation also at loan_approval.bpel.invoke.inputVariable also at risk_assessment.bpel.variable.name also at risk_assessment.bpel.receive.operation also at risk_assessment.bpel.receive.variable also at risk_assessment.bpel.from.variable also at risk_assessment.bpel.reply.operation also at riskAssessmentPT.wsdl.element.name also at riskAssessmentPT.wsdl.wsdl:operation.name
+risk_assessment.bpel.from.variable has value check also at loan_approval.bpel.variable.name also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.invoke.operation also at loan_approval.bpel.invoke.inputVariable also at risk_assessment.bpel.variable.name also at risk_assessment.bpel.receive.operation also at risk_assessment.bpel.receive.variable also at risk_assessment.bpel.reply.operation also at risk_assessment.bpel.reply.operation also at riskAssessmentPT.wsdl.element.name also at riskAssessmentPT.wsdl.wsdl:operation.name
+risk_assessment.bpel.reply.operation has value check also at loan_approval.bpel.variable.name also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.invoke.operation also at loan_approval.bpel.invoke.inputVariable also at risk_assessment.bpel.variable.name also at risk_assessment.bpel.receive.operation also at risk_assessment.bpel.receive.variable also at risk_assessment.bpel.reply.operation also at risk_assessment.bpel.from.variable also at riskAssessmentPT.wsdl.element.name also at riskAssessmentPT.wsdl.wsdl:operation.name
+riskAssessmentPT.wsdl.element.name has value check also at loan_approval.bpel.variable.name also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.invoke.operation also at loan_approval.bpel.invoke.inputVariable also at risk_assessment.bpel.variable.name also at risk_assessment.bpel.receive.operation also at risk_assessment.bpel.receive.variable also at risk_assessment.bpel.reply.operation also at risk_assessment.bpel.from.variable also at risk_assessment.bpel.reply.operation also at riskAssessmentPT.wsdl.wsdl:operation.name
+riskAssessmentPT.wsdl.wsdl:operation.name has value check also at loan_approval.bpel.variable.name also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.to.variable also at loan_approval.bpel.invoke.operation also at loan_approval.bpel.invoke.inputVariable also at risk_assessment.bpel.variable.name also at risk_assessment.bpel.receive.operation also at risk_assessment.bpel.receive.variable also at risk_assessment.bpel.reply.operation also at risk_assessment.bpel.from.variable also at risk_assessment.bpel.reply.operation also at riskAssessmentPT.wsdl.element.name
+riskAssessmentPT.wsdl.wsdl:message.name has value checkMessage
+loanServicePT.wsdl.element.type has value xsd:string also at loanServicePT.wsdl.element.type also at riskAssessmentPT.wsdl.element.type also at riskAssessmentPT.wsdl.element.type
+loanServicePT.wsdl.element.type has value xsd:string also at loanServicePT.wsdl.element.type also at riskAssessmentPT.wsdl.element.type also at riskAssessmentPT.wsdl.element.type
+riskAssessmentPT.wsdl.element.type has value xsd:string also at loanServicePT.wsdl.element.type also at loanServicePT.wsdl.element.type also at riskAssessmentPT.wsdl.element.type
+riskAssessmentPT.wsdl.element.type has value xsd:string also at loanServicePT.wsdl.element.type also at loanServicePT.wsdl.element.type also at riskAssessmentPT.wsdl.element.type
+switchyard.xml.soap:contextMapper.includes has value .*
+riskAssessmentPT.wsdl.wsdl:output.message has value tns:checkResponseMessage
+riskAssessmentPT.wsdl.wsdl:part.element has value tns:check
+riskAssessmentPT.wsdl.wsdl:message.name has value checkResponseMessage
+loanServicePT.wsdl.soap:address.location has value http://localhost:8080/Quickstart_bpel_loan_approvalWS
+risk_assessment.bpel.ns:exampleHeader.xmlns:ns has value http://www.jboss.org/header
+loanServicePT.wsdl.soap:body.use has value literal also at loanServicePT.wsdl.soap:body.use also at loanServicePT.wsdl.soap:fault.use
+loanServicePT.wsdl.soap:body.use has value literal also at loanServicePT.wsdl.soap:body.use also at loanServicePT.wsdl.soap:fault.use
+loanServicePT.wsdl.soap:fault.use has value literal also at loanServicePT.wsdl.soap:body.use also at loanServicePT.wsdl.soap:body.use
+deploy.xml.deploy.xmlns has value http://www.apache.org/ode/schemas/dd/2007/03
+deploy.xml.deploy.xmlns:domain has value urn:switchyard-quickstart:bpel-loan-approval:0.1.0
+deploy.xml.deploy.xmlns:examples has value http://www.jboss.org/bpel/examples
+deploy.xml.deploy.xmlns:ls has value http://example.com/loan-approval/loanService/
+deploy.xml.deploy.xmlns:ra has value http://example.com/loan-approval/riskAssessment/
+deploy.xml.invoke.partnerLink has value assessor
+deploy.xml.invoke.usePeer2Peer has value false
+deploy.xml.process-events.generate has value all
+deploy.xml.process-events.generate has value all
+deploy.xml.process.name has value ls:loanApprovalProcess
+deploy.xml.process.name has value ra:riskAssessmentProcess
+deploy.xml.provide.partnerLink has value assessor
+deploy.xml.provide.partnerLink has value customer
+deploy.xml.service.name has value domain:loanService
+deploy.xml.service.name has value domain:riskAssessor
+deploy.xml.service.name has value domain:riskAssessor
+deploy.xml.service.port has value ignored
+deploy.xml.service.port has value ignored
+deploy.xml.service.port has value ignored
+loanServicePT.wsdl.binding.name has value loanService_Binding
+loanServicePT.wsdl.binding.type has value tns:loanServicePT
+loanServicePT.wsdl.definitions.targetNamespace has value http://example.com/loan-approval/loanService/
+loanServicePT.wsdl.definitions.xmlns has value http://schemas.xmlsoap.org/wsdl/
+loanServicePT.wsdl.definitions.xmlns:ens has value http://example.com/loan-approval/xsd/error-messages/
+loanServicePT.wsdl.definitions.xmlns:plnk has value http://docs.oasis-open.org/wsbpel/2.0/plnktype
+loanServicePT.wsdl.definitions.xmlns:soap has value http://schemas.xmlsoap.org/wsdl/soap/
+loanServicePT.wsdl.definitions.xmlns:tns has value http://example.com/loan-approval/loanService/
+loanServicePT.wsdl.definitions.xmlns:xsd has value http://www.w3.org/2001/XMLSchema
+loanServicePT.wsdl.element.name has value accept
+loanServicePT.wsdl.element.name has value amount
+loanServicePT.wsdl.element.name has value firstName
+loanServicePT.wsdl.element.name has value name
+loanServicePT.wsdl.element.name has value request
+loanServicePT.wsdl.element.name has value requestResponse
+loanServicePT.wsdl.element.type has value string
+loanServicePT.wsdl.element.type has value xsd:integer
+loanServicePT.wsdl.element.type has value xsd:string
+loanServicePT.wsdl.element.type has value xsd:string
+loanServicePT.wsdl.fault.message has value tns:errorMessage
+loanServicePT.wsdl.fault.name has value unableToHandleRequest
+loanServicePT.wsdl.fault.name has value unableToHandleRequest
+loanServicePT.wsdl.input.message has value tns:requestMessage
+loanServicePT.wsdl.message.name has value errorMessage
+loanServicePT.wsdl.message.name has value requestMessage
+loanServicePT.wsdl.message.name has value requestResponseMessage
+loanServicePT.wsdl.operation.name has value request
+loanServicePT.wsdl.operation.name has value request
+loanServicePT.wsdl.output.message has value tns:requestResponseMessage
+loanServicePT.wsdl.part.element has value ens:integer
+loanServicePT.wsdl.part.element has value tns:request
+loanServicePT.wsdl.part.element has value tns:requestResponse
+loanServicePT.wsdl.part.name has value errorCode
+loanServicePT.wsdl.part.name has value parameter
+loanServicePT.wsdl.part.name has value parameter
+loanServicePT.wsdl.plnk:partnerLinkType.name has value loanPartnerLT
+loanServicePT.wsdl.plnk:role.name has value loanService
+loanServicePT.wsdl.plnk:role.portType has value tns:loanServicePT
+loanServicePT.wsdl.port.binding has value tns:loanService_Binding
+loanServicePT.wsdl.port.name has value loanService_Port
+loanServicePT.wsdl.portType.name has value loanServicePT
+loanServicePT.wsdl.service.name has value loanService
+loanServicePT.wsdl.soap:address.location has value http://localhost:8080/Quickstart_bpel_loan_approvalWS
+loanServicePT.wsdl.soap:binding.style has value document
+loanServicePT.wsdl.soap:binding.transport has value http://schemas.xmlsoap.org/soap/http
+loanServicePT.wsdl.soap:body.use has value literal
+loanServicePT.wsdl.soap:body.use has value literal
+loanServicePT.wsdl.soap:fault.name has value unableToHandleRequest
+loanServicePT.wsdl.soap:fault.use has value literal
+loanServicePT.wsdl.soap:operation.soapAction has value http://example.com/loan-approval/loanService/request
+loanServicePT.wsdl.xsd:element.name has value integer
+loanServicePT.wsdl.xsd:element.type has value xsd:integer
+loanServicePT.wsdl.xsd:schema.attributeFormDefault has value unqualified
+loanServicePT.wsdl.xsd:schema.elementFormDefault has value qualified
+loanServicePT.wsdl.xsd:schema.targetNamespace has value http://example.com/loan-approval/loanService/
+loanServicePT.wsdl.xsd:schema.targetNamespace has value http://example.com/loan-approval/xsd/error-messages/
+loanServicePT.wsdl.xsd:schema.xmlns has value http://www.w3.org/2001/XMLSchema
+loan_approval.bpel.assign.name has value AssignName
+loan_approval.bpel.assign.name has value AssignName
+loan_approval.bpel.assign.name has value CopyFaultValue
+loan_approval.bpel.assign.validate has value no
+loan_approval.bpel.assign.validate has value no
+loan_approval.bpel.assign.validate has value no
+loan_approval.bpel.catch.faultMessageType has value ans:errorMessage
+loan_approval.bpel.catch.faultName has value ans:loanProcessFault
+loan_approval.bpel.catch.faultVariable has value error
+loan_approval.bpel.check.xmlns has value http://example.com/loan-approval/riskAssessment/
+loan_approval.bpel.from.header has value conversationId
+loan_approval.bpel.from.header has value conversationId
+loan_approval.bpel.from.header has value exampleHeader
+loan_approval.bpel.from.header has value exampleHeader
+loan_approval.bpel.from.part has value errorCode
+loan_approval.bpel.from.part has value parameter
+loan_approval.bpel.from.variable has value checkResponse
+loan_approval.bpel.from.variable has value checkResponse
+loan_approval.bpel.from.variable has value error
+loan_approval.bpel.from.variable has value request
+loan_approval.bpel.from.variable has value request
+loan_approval.bpel.from.variable has value request
+loan_approval.bpel.import.importType has value http://schemas.xmlsoap.org/wsdl/
+loan_approval.bpel.import.importType has value http://schemas.xmlsoap.org/wsdl/
+loan_approval.bpel.import.location has value loanServicePT.wsdl
+loan_approval.bpel.import.location has value riskAssessmentPT.wsdl
+loan_approval.bpel.import.namespace has value http://example.com/loan-approval/loanService/
+loan_approval.bpel.import.namespace has value http://example.com/loan-approval/riskAssessment/
+loan_approval.bpel.invoke.inputVariable has value check
+loan_approval.bpel.invoke.operation has value check
+loan_approval.bpel.invoke.outputVariable has value checkResponse
+loan_approval.bpel.invoke.partnerLink has value assessor
+loan_approval.bpel.invoke.portType has value lns:riskAssessmentPT
+loan_approval.bpel.partnerLink.myRole has value loanService
+loan_approval.bpel.partnerLink.name has value assessor
+loan_approval.bpel.partnerLink.name has value customer
+loan_approval.bpel.partnerLink.partnerLinkType has value ans:riskAssessmentLT
+loan_approval.bpel.partnerLink.partnerLinkType has value lns:loanPartnerLT
+loan_approval.bpel.partnerLink.partnerRole has value assessor
+loan_approval.bpel.process.expressionLanguage has value urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0
+loan_approval.bpel.process.name has value loanApprovalProcess
+loan_approval.bpel.process.queryLanguage has value urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0
+loan_approval.bpel.process.suppressJoinFailure has value yes
+loan_approval.bpel.process.targetNamespace has value http://example.com/loan-approval/loanService/
+loan_approval.bpel.process.xmlns has value http://docs.oasis-open.org/wsbpel/2.0/process/executable
+loan_approval.bpel.process.xmlns:ans has value http://example.com/loan-approval/riskAssessment/
+loan_approval.bpel.process.xmlns:lns has value http://example.com/loan-approval/loanService/
+loan_approval.bpel.receive.createInstance has value yes
+loan_approval.bpel.receive.operation has value request
+loan_approval.bpel.receive.partnerLink has value customer
+loan_approval.bpel.receive.portType has value lns:loanServicePT
+loan_approval.bpel.receive.variable has value request
+loan_approval.bpel.reply.faultName has value lns:unableToHandleRequest
+loan_approval.bpel.reply.operation has value request
+loan_approval.bpel.reply.operation has value request
+loan_approval.bpel.reply.partnerLink has value customer
+loan_approval.bpel.reply.partnerLink has value customer
+loan_approval.bpel.reply.portType has value lns:loanServicePT
+loan_approval.bpel.reply.portType has value lns:loanServicePT
+loan_approval.bpel.reply.variable has value faultResponse
+loan_approval.bpel.reply.variable has value requestResponse
+loan_approval.bpel.tns:RequestResponse.xmlns:tns has value http://example.com/loan-approval/loanService/
+loan_approval.bpel.tns:RequestResponse.xmlns:xsi has value http://www.w3.org/2001/XMLSchema-instance
+loan_approval.bpel.to.header has value conversationId
+loan_approval.bpel.to.header has value conversationId
+loan_approval.bpel.to.header has value exampleHeader
+loan_approval.bpel.to.header has value exampleHeader
+loan_approval.bpel.to.part has value errorCode
+loan_approval.bpel.to.part has value parameter
+loan_approval.bpel.to.part has value parameter
+loan_approval.bpel.to.part has value parameter
+loan_approval.bpel.to.variable has value check
+loan_approval.bpel.to.variable has value check
+loan_approval.bpel.to.variable has value check
+loan_approval.bpel.to.variable has value check
+loan_approval.bpel.to.variable has value faultResponse
+loan_approval.bpel.to.variable has value requestResponse
+loan_approval.bpel.to.variable has value requestResponse
+loan_approval.bpel.to.variable has value requestResponse
+loan_approval.bpel.variable.messageType has value ans:checkMessage
+loan_approval.bpel.variable.messageType has value ans:checkResponseMessage
+loan_approval.bpel.variable.messageType has value lns:errorMessage
+loan_approval.bpel.variable.messageType has value lns:requestMessage
+loan_approval.bpel.variable.messageType has value lns:requestResponseMessage
+loan_approval.bpel.variable.name has value check
+loan_approval.bpel.variable.name has value checkResponse
+loan_approval.bpel.variable.name has value faultResponse
+loan_approval.bpel.variable.name has value request
+loan_approval.bpel.variable.name has value requestResponse
+riskAssessmentPT.wsdl.element.name has value amount
+riskAssessmentPT.wsdl.element.name has value check
+riskAssessmentPT.wsdl.element.name has value checkResponse
+riskAssessmentPT.wsdl.element.name has value firstName
+riskAssessmentPT.wsdl.element.name has value level
+riskAssessmentPT.wsdl.element.name has value name
+riskAssessmentPT.wsdl.element.type has value string
+riskAssessmentPT.wsdl.element.type has value xsd:integer
+riskAssessmentPT.wsdl.element.type has value xsd:string
+riskAssessmentPT.wsdl.element.type has value xsd:string
+riskAssessmentPT.wsdl.plnk:partnerLinkType.name has value riskAssessmentLT
+riskAssessmentPT.wsdl.plnk:role.name has value assessor
+riskAssessmentPT.wsdl.plnk:role.portType has value tns:riskAssessmentPT
+riskAssessmentPT.wsdl.wsdl:definitions.targetNamespace has value http://example.com/loan-approval/riskAssessment/
+riskAssessmentPT.wsdl.wsdl:definitions.xmlns:ens has value http://example.com/loan-approval/xsd/error-messages/
+riskAssessmentPT.wsdl.wsdl:definitions.xmlns:plnk has value http://docs.oasis-open.org/wsbpel/2.0/plnktype
+riskAssessmentPT.wsdl.wsdl:definitions.xmlns:soap has value http://schemas.xmlsoap.org/wsdl/soap/
+riskAssessmentPT.wsdl.wsdl:definitions.xmlns:tns has value http://example.com/loan-approval/riskAssessment/
+riskAssessmentPT.wsdl.wsdl:definitions.xmlns:wsdl has value http://schemas.xmlsoap.org/wsdl/
+riskAssessmentPT.wsdl.wsdl:definitions.xmlns:xsd has value http://www.w3.org/2001/XMLSchema
+riskAssessmentPT.wsdl.wsdl:fault.message has value tns:errorMessage
+riskAssessmentPT.wsdl.wsdl:fault.name has value loanProcessFault
+riskAssessmentPT.wsdl.wsdl:input.message has value tns:checkMessage
+riskAssessmentPT.wsdl.wsdl:message.name has value checkMessage
+riskAssessmentPT.wsdl.wsdl:message.name has value checkResponseMessage
+riskAssessmentPT.wsdl.wsdl:message.name has value errorMessage
+riskAssessmentPT.wsdl.wsdl:operation.name has value check
+riskAssessmentPT.wsdl.wsdl:output.message has value tns:checkResponseMessage
+riskAssessmentPT.wsdl.wsdl:part.element has value ens:integer
+riskAssessmentPT.wsdl.wsdl:part.element has value tns:check
+riskAssessmentPT.wsdl.wsdl:part.element has value tns:checkResponse
+riskAssessmentPT.wsdl.wsdl:part.name has value errorCode
+riskAssessmentPT.wsdl.wsdl:part.name has value parameter
+riskAssessmentPT.wsdl.wsdl:part.name has value parameter
+riskAssessmentPT.wsdl.wsdl:portType.name has value riskAssessmentPT
+riskAssessmentPT.wsdl.xsd:element.name has value integer
+riskAssessmentPT.wsdl.xsd:element.type has value xsd:integer
+riskAssessmentPT.wsdl.xsd:schema.attributeFormDefault has value unqualified
+riskAssessmentPT.wsdl.xsd:schema.elementFormDefault has value qualified
+riskAssessmentPT.wsdl.xsd:schema.targetNamespace has value http://example.com/loan-approval/riskAssessment/
+riskAssessmentPT.wsdl.xsd:schema.targetNamespace has value http://example.com/loan-approval/xsd/error-messages/
+riskAssessmentPT.wsdl.xsd:schema.xmlns has value http://www.w3.org/2001/XMLSchema
+risk_assessment.bpel.assign.name has value AssignFaultValue
+risk_assessment.bpel.assign.name has value AssignName
+risk_assessment.bpel.assign.validate has value no
+risk_assessment.bpel.assign.validate has value no
+risk_assessment.bpel.from.header has value conversationId
+risk_assessment.bpel.from.variable has value check
+risk_assessment.bpel.import.importType has value http://schemas.xmlsoap.org/wsdl/
+risk_assessment.bpel.import.location has value riskAssessmentPT.wsdl
+risk_assessment.bpel.import.namespace has value http://example.com/loan-approval/riskAssessment/
+risk_assessment.bpel.integer.xmlns has value http://example.com/loan-approval/xsd/error-messages/
+risk_assessment.bpel.ns:exampleHeader.xmlns:ns has value http://www.jboss.org/header
+risk_assessment.bpel.partnerLink.myRole has value assessor
+risk_assessment.bpel.partnerLink.name has value assessor
+risk_assessment.bpel.partnerLink.partnerLinkType has value lns:riskAssessmentLT
+risk_assessment.bpel.process.expressionLanguage has value urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0
+risk_assessment.bpel.process.name has value riskAssessmentProcess
+risk_assessment.bpel.process.queryLanguage has value urn:oasis:names:tc:wsbpel:2.0:sublang:xpath2.0
+risk_assessment.bpel.process.suppressJoinFailure has value yes
+risk_assessment.bpel.process.targetNamespace has value http://example.com/loan-approval/riskAssessment/
+risk_assessment.bpel.process.xmlns has value http://docs.oasis-open.org/wsbpel/2.0/process/executable
+risk_assessment.bpel.process.xmlns:lns has value http://example.com/loan-approval/riskAssessment/
+risk_assessment.bpel.receive.createInstance has value yes
+risk_assessment.bpel.receive.operation has value check
+risk_assessment.bpel.receive.partnerLink has value assessor
+risk_assessment.bpel.receive.portType has value lns:riskAssessmentPT
+risk_assessment.bpel.receive.variable has value check
+risk_assessment.bpel.reply.faultName has value lns:loanProcessFault
+risk_assessment.bpel.reply.operation has value check
+risk_assessment.bpel.reply.operation has value check
+risk_assessment.bpel.reply.partnerLink has value assessor
+risk_assessment.bpel.reply.partnerLink has value assessor
+risk_assessment.bpel.reply.portType has value lns:riskAssessmentPT
+risk_assessment.bpel.reply.portType has value lns:riskAssessmentPT
+risk_assessment.bpel.reply.variable has value checkResponse
+risk_assessment.bpel.reply.variable has value faultResponse
+risk_assessment.bpel.tns:CheckResponse.xmlns:tns has value http://example.com/loan-approval/loanService/
+risk_assessment.bpel.tns:CheckResponse.xmlns:xsi has value http://www.w3.org/2001/XMLSchema-instance
+risk_assessment.bpel.to.header has value conversationId
+risk_assessment.bpel.to.header has value exampleHeader
+risk_assessment.bpel.to.part has value errorCode
+risk_assessment.bpel.to.part has value parameter
+risk_assessment.bpel.to.variable has value checkResponse
+risk_assessment.bpel.to.variable has value checkResponse
+risk_assessment.bpel.to.variable has value checkResponse
+risk_assessment.bpel.to.variable has value faultResponse
+risk_assessment.bpel.variable.messageType has value lns:checkMessage
+risk_assessment.bpel.variable.messageType has value lns:checkResponseMessage
+risk_assessment.bpel.variable.messageType has value lns:errorMessage
+risk_assessment.bpel.variable.name has value check
+risk_assessment.bpel.variable.name has value checkResponse
+risk_assessment.bpel.variable.name has value faultResponse
+switchyard.xml.bpel:implementation.bpel.process has value ls:loanApprovalProcess
+switchyard.xml.bpel:implementation.bpel.process has value ra:riskAssessmentProcess
+switchyard.xml.sca:component.name has value loanService
+switchyard.xml.sca:component.name has value riskAssessor
+switchyard.xml.sca:composite.name has value loanservice
+switchyard.xml.sca:composite.targetNamespace has value urn:switchyard-quickstart:bpel-loan-approval:0.1.0
+switchyard.xml.sca:interface.wsdl.interface has value loanServicePT.wsdl#wsdl.porttype(loanServicePT)
+switchyard.xml.sca:interface.wsdl.interface has value riskAssessmentPT.wsdl#wsdl.porttype(riskAssessmentPT)
+switchyard.xml.sca:interface.wsdl.interface has value riskAssessmentPT.wsdl#wsdl.porttype(riskAssessmentPT)
+switchyard.xml.sca:reference.name has value riskAssessor
+switchyard.xml.sca:service.name has value loanService
+switchyard.xml.sca:service.name has value loanService
+switchyard.xml.sca:service.name has value riskAssessor
+switchyard.xml.sca:service.promote has value loanService
+switchyard.xml.soap:contextMapper.includes has value .*
+switchyard.xml.soap:contextMapper.soapHeadersType has value DOM
+switchyard.xml.switchyard.name has value loanapproval
+switchyard.xml.switchyard.targetNamespace has value urn:switchyard-quickstart:bpel-loan-approval:0.1.0
+switchyard.xml.switchyard.xmlns has value urn:switchyard-config:switchyard:1.0
+switchyard.xml.switchyard.xmlns:bean has value urn:switchyard-component-bean:config:1.0
+switchyard.xml.switchyard.xmlns:bpel has value http://docs.oasis-open.org/ns/opencsa/sca/200912
+switchyard.xml.switchyard.xmlns:ls has value http://example.com/loan-approval/loanService/
+switchyard.xml.switchyard.xmlns:ra has value http://example.com/loan-approval/riskAssessment/
+switchyard.xml.switchyard.xmlns:sca has value http://docs.oasis-open.org/ns/opencsa/sca/200912
+switchyard.xml.switchyard.xmlns:soap has value urn:switchyard-component-soap:config:1.0
+switchyard.xml.switchyard.xmlns:swyd has value urn:switchyard-config:switchyard:1.0
+switchyard.xml.switchyard.xmlns:trfm has value urn:switchyard-config:transform:1.0
